@@ -1,1 +1,1 @@
-export const backendUrl =`https://zoro-backend-ohlr.onrender.com`
+export const backendUrl =`https://zoro-new-backend.onrender.com`
