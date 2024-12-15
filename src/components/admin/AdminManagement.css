@@ -1,0 +1,39 @@
+.topP{
+    height: 80px;
+    width: 100%;
+    background-color: #006666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainP{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.mainP1{
+    height: auto;
+}
+.leftSectionP{
+    width: 10%;
+    height: auto;
+    background-color: #660033;
+}
+.rightSectionP{
+    width: 90%;
+    height: auto;
+    background-color: 	#003366;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prodBtnP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+.prodBtnP button{
+    width: 200px;
+}

@@ -1,0 +1,38 @@
+.addProducts1p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.displayProducts{
+    text-align: center;
+    margin-top: 30px;
+}
+.dispProd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;  
+    flex-wrap: wrap; 
+}
+.inpStyle{
+    width: 400px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.inpStyle1{
+    width: 100px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.inpStyl{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+}

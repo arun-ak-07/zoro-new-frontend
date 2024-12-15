@@ -1,0 +1,48 @@
+.navbar {
+  background-color: black;
+  padding: 10px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: black;
+}
+
+.popover-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popover-item {
+  padding: 10px;
+}
+
+.linksN{
+  margin: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}

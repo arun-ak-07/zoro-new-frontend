@@ -1,0 +1,162 @@
+.mainL1{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.headerL1{
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+}
+.headerL01{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.headerL01 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.headerL02{
+    width: 100%;
+    background-color: rgb(20, 15, 28);
+    height: 5rem;
+    display: flex;
+    
+}
+.headerLeftL1{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerTitlesL1{
+    color: white;
+}
+.headerRightL1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerRightIconsL1{
+    color:white;
+    font-size:30px;
+}
+.headerRightIconsL11{
+    color:white;
+    font-size:22px;
+}
+.headerRightIconsL111{
+    color:white;
+    font-size:30px;
+}
+.btnsearchL1{
+    border-color: white;
+    color: white;
+    background-color: rgb(20, 15, 28); ;
+    height: 40px;
+    width: 140px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+/* CENTER */
+
+.centerL1{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+}
+
+/* FOOTER */
+
+.footerL1{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    margin-top: 40px;
+}
+.footerL1a{
+    display: flex;
+    flex-direction: row;
+}
+.footerL1 h4{
+    color: #f31a20;
+    font-family: var(--ft2);
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 0 15px;
+}
+.leftFooterL1{
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.leftFooterL1 p{
+    font-size: 13px;
+    color: #000;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+}
+.rightFooterL1{
+    height: 200px;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerFooterL1{
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footBottomL{
+    padding-left: 180px;
+    height: 100px;
+
+    padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .mainL1{
+        width: 100%;
+    }
+    .headerL1{
+        width: 100%;
+    }
+    .centerR1{
+        width: 100%;
+    }
+    .loginFormRs{
+        width: 100%;
+    }
+    #formBasicEmail{
+        width: 100%;
+    }
+    .loginButton1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,367 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.addr p{
+    margin: 0;
+    padding: 0;
+}
+
+.main1H {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.header1H {
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header01H {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: WHITE;
+}
+
+.header01H p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.header02H {
+    width: 100%;
+    background-color: black;
+    height: 5rem;
+    display: flex;
+
+}
+
+.headerLeft1H {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerTitles1H {
+    color: white;
+}
+
+.headerTitles1H:hover {
+    color: orange;
+}
+
+.headerRight1H {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.headerRightIcons1H {
+    color: white;
+    font-size: 27px;
+}
+
+.headerRightIcons11H {
+    color: white;
+    font-size: 18px;
+}
+.headerRightIcons112{
+    color: white;
+    font-size: 20px;   
+}
+.headerRightIcons111 {
+    color: white;
+    font-size: 27px;
+}
+
+.btnsearch1 {
+    border-color: white;
+    color: white;
+    background-color: rgb(20, 15, 28);
+    ;
+    height: 40px;
+    width: 140px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.linksNH {
+    margin: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.linksNDH,.linksNH:hover{
+    color: orange;
+}
+.headerRightIcons1H:hover{
+    color: orange;
+}
+.headerRightIcons111H:hover{
+    color: orange;
+}
+.headerRightIcons112H:hover{
+    color: orange;
+}
+
+
+.linksNDH {
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+/* CENTER */
+.centerMP {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+}
+.MPcenter{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    
+}
+.leftMP{
+    height: auto;
+    width:30% ;
+    background-color: white;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.rightMP{
+    height: auto;
+    width: 70%;
+    background-color: white;
+}
+.topMP{
+    height: 80px;
+    width: 300px;
+    /* background-color: #f31a20; */
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.leftTopMP{
+    height: auto;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightTopMP{
+    height: auto;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column
+}
+.bottomMP{
+    margin-top: 20px;
+    height: 500px;
+    width: 300px;
+    /* background-color: #f31a20; */
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    display: flex;
+    flex-direction: column;
+}
+.accSettings{
+    /* padding: 0 0 12px 20px; */
+    font-size: 16px;
+    font-weight: 600;
+    color: #878787;
+}
+.pfl{
+    color:  black;
+    font-size: 14px;
+}
+.topBottomMP{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    padding-left: 10px;
+}
+.ordersMP{
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.rightMPProfile{
+    height: 100%;
+    width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profileInformation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.addressInformation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+ .profileInformation p{
+    margin: 0;
+    padding: 0;
+}
+.userInformation{
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
+.userInfo1{
+    cursor: not-allowed;
+    height: 50px;
+    width: 220px;
+   
+}
+.userInfo2{
+    /* cursor: not-allowed; */
+    height: 50px;
+    width: 220px;
+}
+.fromDiv{
+    margin: 12px;
+}
+.roundbox{
+    margin-left: 10px;
+}
+.btnsz{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(0, 72, 255);
+    color: white;
+    border: none;
+}
+/* FOOTER */
+
+.footer1H {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.footer1aH {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1H h4 {
+    color: #f31a20;
+    font-family: var(--ft2);
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 0 15px;
+}
+
+.leftFooter1H {
+    height: 180px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.leftFooter1H p {
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border-top: 1px solid black;
+}
+
+.rightFooter1H {
+    height: 180px;
+    width: 40%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerFooter1H {
+    height: 180px;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.centerFooter1H,
+.rightFooter1H a {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+
+
+.footBottom1H {
+    padding-left: 200px;
+    height: 100px;
+
+    padding-top: 30px;
+    background-color: black;
+}

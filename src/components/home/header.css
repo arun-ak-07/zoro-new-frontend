@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .logoTitle{
+        margin: 0;
+        padding-right: 0;
+    }
+    .headerLeft1 img {
+        width: 50px;
+        height: 50px;
+        margin-right: 45px;
+      }
+    .headerLeft1{
+        width: 50%;
+        padding-left: 40px;
+    }
+    .headerRight1{
+        width: 50%;
+    }
+    .iconsNav{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .header02{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .headerRightIcons1{
+        font-size: 26px;
+    }
+    .fixed-toggle {
+        position: fixed; /* Keeps the toggle button in a fixed position */
+        top: 10px; /* Adjust the top position */
+        right: 10px; /* Adjust the right position */
+        z-index: 1000; /* Ensure it's above other content */
+      }
+      hr{
+        color: gray;
+      }
+      /* .headerRightIcons1{
+        visibility: ;
+      } */
+}

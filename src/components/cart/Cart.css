@@ -1,0 +1,384 @@
+body {
+    font-family: sans-serif;
+}
+
+.main1H {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.header1H {
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header01H {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: WHITE;
+}
+
+.header01H p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.header02H {
+    width: 100%;
+    background-color: black;
+    height: 5rem;
+    display: flex;
+
+}
+
+.headerLeft1H {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerTitles1H {
+    color: white;
+}
+
+.headerTitles1H:hover {
+    color: orange;
+}
+
+.headerRight1H {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.headerRightIcons1H {
+    color: white;
+    font-size: 27px;
+}
+
+.headerRightIcons11H {
+    color: white;
+    font-size: 18px;
+}
+.headerRightIcons112{
+    color: white;
+    font-size: 20px;   
+}
+.headerRightIcons111 {
+    color: white;
+    font-size: 27px;
+}
+
+.btnsearch1 {
+    border-color: white;
+    color: white;
+    background-color: rgb(20, 15, 28);
+    ;
+    height: 40px;
+    width: 140px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.linksNH {
+    margin: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.linksNDH,.linksNH:hover{
+    color: orange;
+}
+.headerRightIcons1H:hover{
+    color: orange;
+}
+.headerRightIcons111H:hover{
+    color: orange;
+}
+.headerRightIcons112H:hover{
+    color: orange;
+}
+
+
+.linksNDH {
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+/* CENTER */
+.center1HCC {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cartHeading{
+    font-size: 28px;
+    line-height: 1.142;
+    font-weight: 700;
+}
+.emptyCart1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.emptyCart2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.centerf2AddToCartc2{
+    position: fixed;
+    
+    right: 0; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    background-color: #fff; /* Adjust as needed */
+ 
+    /* Add any other styling properties as needed */
+}
+.cartItems{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* CART */
+
+.centerf1AddToCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 320px;
+}
+
+.amain-card1aAddToCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center-textf2AddToCart p{
+    font-size: 16px;
+    line-height: 24px;
+    color:grey;
+    letter-spacing: 1px;
+}
+.center-textf1AddToCart h4{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.card1aAddToCart{
+    height: 302px;
+    width: 800px;
+    display: flex;
+    border: 1px grey;
+    border-style: groove;
+    margin: 20px;
+    margin-left: 50px;
+}
+.amain-card2aAddToCart{
+    height: 302px;
+    width: 380px;
+    background: white;
+    border: 1px grey;
+    border-style: groove;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card1a-leftAddToCart{
+    height: 300px;
+    width: 30%;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    border: 1px grey;
+    border-style: groove;
+}
+.centerf2AddToCartc{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+.card1a-rightAddToCart{
+    height: 300px;
+    width: 70%; 
+    background: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px grey;
+    border-style: groove;
+    justify-content: center;
+}
+.removeButtonAddToCart{
+    margin-left: 460px;
+    margin-bottom: 58px;
+}
+
+.data12AddToCart{
+    margin-bottom: 0px; 
+}
+
+.amain-card2aAddToCart div h4{
+    color: grey;
+    border-bottom: 1px solid var(--color-grey-grade1);
+    font-size: var(--font-size-16);
+}
+.amain-card2aAddToCart-top{
+    height: 15%;
+    width: 100%;
+    border: 1px grey;
+    border-style: groove;
+}
+.amain-card2aAddToCart-center{
+    height: 25%;
+    width: 100%;
+    border: 1px grey;
+    border-style: groove;
+}
+.amain-card2aAddToCart-bottom{
+    height: 40%;
+    width: 100%;
+    border: 1px grey;
+    border-style: groove;
+}
+.amain-card2aAddToCart-button{
+    height: 20%;
+    width: 100%;
+    border: 1px grey;
+    border-style: groove;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* button */
+.amain-card2aAddToCart-button button{
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+.footer1H {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.footer1aH {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1H h4 {
+    color: #f31a20;
+    font-family: var(--ft2);
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 0 15px;
+}
+
+.leftFooter1H {
+    height: 180px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.leftFooter1H p {
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border-top: 1px solid black;
+}
+
+.rightFooter1H {
+    height: 180px;
+    width: 40%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerFooter1H {
+    height: 180px;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.centerFooter1H,
+.rightFooter1H a {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+
+
+.footBottom1H {
+    padding-left: 200px;
+    height: 100px;
+
+    padding-top: 30px;
+    background-color: black;
+}
